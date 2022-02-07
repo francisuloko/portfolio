@@ -31,11 +31,9 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'Source Sans Pro', sans-serif;
-  
 }
 
 a {
@@ -47,11 +45,8 @@ li {
   list-style: none;
 }
 
-input:focus,
-button:focus,
-a:focus,
-textarea:focus {
-  outline: none;
+textarea {
+  resize: none;
 }
 
 button {
@@ -59,6 +54,9 @@ button {
   cursor: pointer;
 }
 
-textarea {
-  resize: none;
+input:focus,
+button:focus,
+a:focus,
+textarea:focus {
+  outline: none;
 }
