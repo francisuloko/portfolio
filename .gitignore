@@ -122,4 +122,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# hint report
+hint-report/
+
 # End of https://www.toptal.com/developers/gitignore/api/node
